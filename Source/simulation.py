@@ -7,10 +7,10 @@
 #
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
-from particle import Particle
+from Source.particle import Particle
 import numpy as np
-from entropy import calculate_entropy, calculate_temperature, calculate_spatial_entropy, resolve_collision_elastic, resolve_collision_inelastic
-from plots import plot_entropia_temperatura
+from Source.entropy import calculate_entropy, calculate_temperature, calculate_spatial_entropy, resolve_collision_elastic, resolve_collision_inelastic
+from Source.plots import plot_entropia_temperatura
 
 def run_simulation(collision_type):
     # Configuração inicial da simulação e da figura
